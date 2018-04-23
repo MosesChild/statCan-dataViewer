@@ -1,0 +1,21 @@
+body {
+    background-color: rgb(163, 154, 154);
+    color: black;
+}
+
+.selected {
+    color: green
+}
+li {
+    list-style-type: none;
+    overflow: hidden;
+    max-height: 1.2em;
+
+}
+.filterGroup {
+    display: flex;
+    
+    flex-flow: column nowrap;
+    align-content: center;
+    max-width: 25%;
+}
