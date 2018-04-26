@@ -3,19 +3,26 @@ body {
     color: black;
 }
 
+#wrapper {
+    height: 200px;
+}
+.dataWindow {
+    max-height: 200px;
+    overflow: auto;
+}
 .selected {
     color: green
 }
 li {
+    position: relative;
     list-style-type: none;
     overflow: hidden;
     max-height: 1.2em;
-
 }
 .filterGroup {
     display: flex;
-    
     flex-flow: column nowrap;
     align-content: center;
     max-width: 25%;
 }
+

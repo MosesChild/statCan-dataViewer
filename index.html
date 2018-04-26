@@ -15,12 +15,13 @@
         <!--[if lt IE 7]>
             <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
         <![endif]  accept="image/*" -->
-        <input type="file" id="fileElem" multiple style="display:none" onchange="handleFiles(this.files)">
+        <div id="wrapper"></div>
+        <input type="file" id="fileElem" multiple style="display:none" onchange="Module.handleFiles(this.files)">
         <button id="fileSelect">
             Select some files
         </button>
-        <div id="preview"></div>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/lodash.js/4.17.5/lodash.min.js" integrity="sha256-YFhaeQSVBgAFNN5z4I9YRB2jCuqc2nvypz0Q2eQzcx8=" crossorigin="anonymous"></script>
+        <script src="https://d3js.org/d3.v5.min.js"></script>
         <script type= "text/javascript" src="./scatter.js"></script>
     </body>
 </html>
