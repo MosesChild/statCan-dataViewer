@@ -1,24 +1,38 @@
 body {
-    background-color: rgb(163, 154, 154);
-    color: black;
-}
-
-#wrapper {
-    height: 200px;
-}
-.dataWindow {
-    max-height: 200px;
-    overflow: auto;
-}
-.selected {
-    color: green
+    color: black; /*benevolence,  happy 仁 樂 */
+    background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" version="1.1" fill="#333" font-size="30px" width="45px" height="35px"><text x="1" y="30">仁</text></svg>');
+    background-repeat: repeat repeat;
+    background-color:black;
 }
 li {
     position: relative;
     list-style-type: none;
-    overflow: hidden;
-    max-height: 1.2em;
 }
+#wrapper {
+    height: 200px;
+}
+.filterGroup {
+    background-color: white;
+}
+.dataWindow {
+    max-height: 200px;
+    overflow-y: auto;
+}
+.dataViewer {
+    padding: 20px;
+    min-width: 50vw;
+    background-color: white;
+}
+.dataViewer li {
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+.selected {
+    color: green
+}
+
 .filterGroup {
     display: flex;
     flex-flow: column nowrap;

@@ -9,7 +9,9 @@
         <title>Scatterplot Viewer</title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.0/normalize.min.css" integrity="sha256-oSrCnRYXvHG31SBifqP2PM1uje7SJUyX0nTwO2RJV54=" crossorigin="anonymous" />
         <link href="./index.css" rel="stylesheet">
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js"></script>
     </head>
     <body>
         <!--[if lt IE 7]>
@@ -18,10 +20,12 @@
         <div id="wrapper"></div>
         <input type="file" id="fileElem" multiple style="display:none" onchange="Module.handleFiles(this.files)">
         <button id="fileSelect">
-            Select some files
+            Select file
         </button>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/lodash.js/4.17.5/lodash.min.js" integrity="sha256-YFhaeQSVBgAFNN5z4I9YRB2jCuqc2nvypz0Q2eQzcx8=" crossorigin="anonymous"></script>
         <script src="https://d3js.org/d3.v5.min.js"></script>
         <script type= "text/javascript" src="./scatter.js"></script>
+        
     </body>
+
 </html>

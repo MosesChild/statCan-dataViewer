@@ -3,7 +3,10 @@
   "version": "1.0.0",
   "description": "",
   "main": "app.js",
-  "dependencies": {},
+  "dependencies": {
+    "d3":"5.1.0",
+    "modernizr": "3.5.3"
+  },
   "devDependencies": {
     "lodash": "^4.17.5"
   },
